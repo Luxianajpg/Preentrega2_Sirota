@@ -7,7 +7,7 @@
 body {
     display: grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 12% 58% 25% 5%;
+    grid-template-rows: 12vh 58vh 25vh 5vh;
     grid-template-areas: 
         "header"
         "main"
@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #e9dcd1;
-    width: 100%;
+    width: 100vh;
     grid-area: header;
 }
 
