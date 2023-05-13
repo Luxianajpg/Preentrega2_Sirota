@@ -6,24 +6,23 @@
 body {
     display: grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 110px 574px 243px 65px;
+    grid-template-rows: 11vh 58vh 24vh 6vh;
     row-gap: 10px;
-     
 }
 
 header {
     background-color: #e9dcd1;
-    width: 100%;
+    width: 100vh;
 }
 main {
     background-color: #d2baa5;
-    width: 100%;
+    width: 100vh;
 }
 section {
     background-color: #e9dcd1;
-    width: 100%;
+    width: 100vh;
 }
 footer {
     background-color: #e9dcd1;
-    width: 100%;
+    width: 100vh;
 }
