@@ -1,0 +1,28 @@
+* {
+    font-family: 'Amaranth', sans serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px 574px 243px 65px;
+    row-gap: 10px;
+}
+
+header {
+    background-color: #e9dcd1;
+    width: 100%;
+}
+main {
+    background-color: #d2baa5;
+    width: 100%;
+}
+section {
+    background-color: #e9dcd1;
+    width: 100%;
+}
+footer {
+    background-color: #e9dcd1;
+    width: 100%;
+}
