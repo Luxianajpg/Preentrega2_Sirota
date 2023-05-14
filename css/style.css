@@ -13,7 +13,39 @@ body {
 header {
     background-color: #e9dcd1;
     width: auto;
+    display: flex;
+    justify-content: center;
 }
+
+.navbar {
+    background-color: #e9dcd1;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 12vh;
+    height: 12vh;
+}
+
+.nav-link {
+    font-size: 0.8em;
+    color: #e9dcd1;
+}
+
+.nav-item {
+    background-color: #9b7c64;
+    padding-bottom: 3.8vh;
+    margin: 2vh;
+    border-radius: 1.5vh;
+    width: 13vh;
+    height: 3vh;
+}
+
 main {
     background-color: #d2baa5;
     width: auto;
